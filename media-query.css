@@ -88,6 +88,25 @@
        }*/
 }
 
+
+/* Tablet Screen width 768 */
+
+@media screen and (max-width: 768px) {
+    .hl {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .name {
+        padding-top: 200px;
+        font-size: 40px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+
 .row.heading h1 {
     position: relative;
     margin-top: -120px;
